@@ -1,0 +1,40 @@
+body{
+    background: lightcyan;
+    font-family: serif;
+}
+
+.post {
+    background: white;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    display: block;
+    width: 38%;
+}
+
+.post-header-left {
+    display: flex;
+}
+
+.post-header-right {
+    display: flex;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.post-body {
+    padding: 10px;
+}
+
+.post-icons-leftside{
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.post-icons-rightside{
+    display: flex;
+    font-size: x-large;
+}
