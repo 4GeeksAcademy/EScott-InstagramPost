@@ -1,40 +1,54 @@
 body{
-    background: lightcyan;
-    font-family: serif;
+    background-color: lightcyan;
+    font-family: 'Serif';
 }
 
-.post {
-    background: white;
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 300px;
-    margin-bottom: 50px;
+.post{
+    background-color: white;
+    position: relative;
     display: block;
-    width: 38%;
+    margin-top: 50px;
+    margin-left: 30%;
+    height: 600px;
+    width: 36.2%;
 }
-
-.post-header-left {
+.post-header{
     display: flex;
+    padding-left: 35px;
+    padding-top: 7px;
 }
 
-.post-header-right {
-    display: flex;
-}
-
-.post-img {
-    width: 100%;
-}
-
-.post-body {
-    padding: 10px;
-}
-
-.post-icons-leftside{
-    justify-content: space-between;
+.fa-brands{
+    position: absolute;
     font-size: x-large;
+    left: 10px;
+    top: 15px;
 }
 
-.post-icons-rightside{
-    display: flex;
+.fa-solid{
+    position: absolute;
     font-size: x-large;
+    left: 94%;
+    top: 20px;
+}
+
+.post-img{
+    background-size: cover;
+    width: 100% ;
+    height: 300px;
+}
+
+.post-body{
+    padding: 15px;
+}
+
+.icons{
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+.fa-bookmark{
+    position: absolute;
+    left: 90%;
 }
